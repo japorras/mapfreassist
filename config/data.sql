@@ -1,0 +1,2 @@
+--CREATE TABLE tbl_integration(messageId VARCHAR not null, dateCreation DATE,  types VARCHAR, endpoint VARCHAR, language VARCHAR, typeAuthorization VARCHAR, userPass VARCHAR, syncronization BOOLEAN);
+INSERT INTO tbl_integration (message_Id, date_creation, types, payload, endpoint, language, type_authorization, endpoint_authorization, user_pass, syncronization) VALUES ('1', '2019-03-19', 'SOAP', '{"prueba":"test1"}', 'https://domain:432/services/operation', 'xml', 'Basic', 'https://hostdomain:443/service2/auth','asdfa3w5t34vcgbadatg4tjh', 'true');
